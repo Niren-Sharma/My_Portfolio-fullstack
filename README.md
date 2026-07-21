@@ -4,7 +4,7 @@ A clean, responsive, and dark-theme enabled portfolio application.
 
 ## 🌐 Live Demo
 
-👉 **[Live Portfolio Link](https://niren-portfolio.netlify.app)** *(Yahan apna exact Netlify wala URL replace kar dena)*
+👉 **[Live Portfolio Link](https://niren.netlify.app)**
 
 ---
 
