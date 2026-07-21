@@ -187,6 +187,44 @@ body.dark-theme .scroll-progress {
     transform: scale(1.2);
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        padding: 12px 0;
+    }
+    
+    .nav-container {
+        padding: 0 4%;
+        width: 100%;
+    }
+
+    .nav-links {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Hide scrollbar for Firefox */
+    }
+
+    .nav-links::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome/Safari */
+    }
+
+    .nav-link {
+        font-size: 0.75rem;
+        padding: 4px 6px;
+    }
+
+    #theme-toggle {
+        font-size: 1rem;
+        padding: 4px;
+        flex-shrink: 0; /* Prevents button from shrinking */
+    }
+}
+
 .hero {
     min-height: 100vh;
     display: flex;
