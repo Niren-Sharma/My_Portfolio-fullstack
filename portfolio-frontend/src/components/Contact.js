@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 
+// Dynamic API URL setup based on environment
+const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:5000'
+  : 'https://my-portfolio-backend-service.onrender.com';
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -17,7 +22,7 @@ const Contact = () => {
     setStatus({ loading: true, msg: '', error: false });
 
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch(`${API_BASE_URL}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
