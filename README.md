@@ -2,10 +2,17 @@
 
 A clean, responsive, and dark-theme enabled portfolio application.
 
+## 🌐 Live Demo
+
+👉 **[Live Portfolio Link](https://niren-portfolio.netlify.app)** *(Yahan apna exact Netlify wala URL replace kar dena)*
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js, CSS3 (Variables, Custom Cursor, Smooth Scroll)
 - **Backend:** Node.js, Express.js
+- **Hosting:** Netlify (Frontend)
 - **Icons & Fonts:** FontAwesome, DevIcons, Montserrat
 
 ## ✨ Features
@@ -24,4 +31,4 @@ A clean, responsive, and dark-theme enabled portfolio application.
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+   git clone [https://github.com/Niren-Sharma/My_Portfolio-fullstack.git](https://github.com/Niren-Sharma/My_Portfolio-fullstack.git)
